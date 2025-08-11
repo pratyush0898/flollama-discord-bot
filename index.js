@@ -1,6 +1,8 @@
 const { Client, GatewayIntentBits, Events, EmbedBuilder, ActivityType } = require('discord.js');
-const fetch = require('node-fetch');
 require('dotenv').config();
+
+// Use built-in fetch (Node.js 18+) or polyfill for older versions
+const fetch = globalThis.fetch || require('node-fetch');
 
 // Create a new client instance
 const client = new Client({
