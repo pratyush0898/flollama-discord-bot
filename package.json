@@ -1,0 +1,40 @@
+{
+  "name": "flollama-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot powered by Flollama AI for coding, science learning, writing, and general knowledge assistance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "flollama",
+    "ai",
+    "llama",
+    "ollama",
+    "chatbot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/flollama-discord-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/flollama-discord-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/flollama-discord-bot#readme"
+}
